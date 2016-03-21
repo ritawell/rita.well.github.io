@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Gunman</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/animation.css">
+</head>
+<body>
+<div class="game_area">
+    <div class="game_life game_life_hide">
+        <!-- game_life_hide-->
+        <img class="life_img life__1" src="styles/images/life_32.png"/>
+        <img class="life_img life__2" src="styles/images/life_32.png"/>
+        <img class="life_img life__3" src="styles/images/life_32.png"/>
+        <!-- life_img_hide-->
+    </div>
+    <div class="game_menu">
+        <!-- game_menu_hide-->
+            <span class="menu__btn-wrapper">
+                <div class="menu_result menu_result_hide"></div>
+                <button class="menu__btn-start">Start new game</button>
+            </span>
+    </div>
+
+    <div class="calc-bag calc-bag_hide">
+        <div class="bag-wrapper">
+            <div class="bag-frame"></div>
+            <div class="bag-coins"></div>
+        </div>
+    </div>
+
+    <div class="enemy"></div>
+    <div class="game_aim game_aim_hide"></div>
+    <div class="game_level game_level-hide"></div>
+    <div class="game_status">status</div>
+    <!--  game_status-show -->
+    <button class="game_btn-next-level">Next level</button>
+    <!-- game_btn-next-level-show-->
+</div>
+
+<script src="js/gunman.js"></script>
+</body>
+</html>
