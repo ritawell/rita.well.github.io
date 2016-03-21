@@ -1,0 +1,438 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body{
+    width: 100%;
+    font-family: "Trebuchet MS";
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo, .nav{
+    display: inline-block;
+    position: relative;
+}
+.logo{
+    color: #ee8129;
+    font-size: 36px;
+    margin: 18px 185px 36px 146px;
+
+}
+.logo span{
+    text-transform: uppercase;
+    color: #3070a8;
+}
+.header{
+    height: 117px;
+   }
+.nav{
+    -padding-top: 64px;
+    -padding-left: 300px;
+    }
+.nav li{
+    display: inline-block;
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 23px;
+    }
+.nav li a{
+    text-decoration: none;
+    color:#989898;
+    font-size: 14px;
+}
+.nav li a:hover{
+    color: #3070a8;
+}
+.banner{
+    background-image: url(images/bgbanner.png);
+    width: 100%;
+    height: 800px;
+}
+.banner h2{
+    width: 1023px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 48px;
+    padding-top: 250px;
+    padding-left: 205px;
+    line-height: 1.5;
+}
+.banner h2 span{
+    text-transform: uppercase;
+}
+.banner p{
+    font-size: 20px;
+    color: white;
+    padding-left: 170px;
+    text-align: center;
+    font-style: italic;
+}
+.banner input{
+    width: 245px;
+    height: 60px;
+    border: 1px solid #97a8ba;
+    background: transparent;
+    color: #ffffff;
+    font-size:20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 47px 511px 107px 600px;
+}
+
+.price{
+    margin-left: 273px;
+    font-family: "Trebuchet MS";
+}
+.offer h2{
+    font-size:30px;
+    font-weight: bold;
+    color:#41525c;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 55px 0 62px 0;
+    font-family: "Trebuchet MS";
+}
+.blue, .orange, .green{
+    display: inline-block;
+    width: 298px;
+}
+.blue{
+    height: 445px;
+    border: 1px solid #e8eaec;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+}
+.bhead{
+    background-color: #37c2d3;
+    border: 1px solid #37c2d3;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 63px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10%;
+}
+.orange{
+    height: 472px;
+    border: 3px solid #ec8136;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    position: relative;
+    margin-top: -18px;
+    margin-bottom: 77px;
+}
+.ohead{
+    background-color: #ec8136;
+    border: 1px solid #ec8136;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 63px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 15%;
+}
+.green{
+    height: 445px;
+    border: 1px solid #e8eaec;
+    border-radius: 10px;
+    float: right;
+    position: absolute;
+}
+.ghead{
+    background-color: #1cb79a;
+    border: 1px solid #1cb79a;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 63px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10%;
+}
+.mblue p{
+    color:#3f4042;
+    font-size: 24px;
+    text-align:center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 22px;
+    margin-bottom: 29px;
+}
+.mblue span{
+    font-size: 72px;
+}
+.mblue sup{
+    font-size: 36px;
+}
+.mblue sub{
+    font-size: 18px;
+}
+.morange p{
+    color:#3f4042;
+    font-size: 24px;
+    text-align:center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 22px;
+    margin-bottom: 29px;
+}
+.morange p span{
+    font-size: 72px;
+}
+.morange p sup{
+    font-size: 36px;
+}
+.morange p sub{
+    font-size: 18px;
+}
+.mgreen p{
+    color:#3f4042;
+    font-size: 24px;
+    text-align:center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 22px;
+    margin-bottom: 29px;
+}
+.mgreen p span{
+    font-size: 72px;
+}
+.mgreen p sup{
+    font-size: 36px;
+}
+.mgreen p sub{
+    font-size: 18px;
+}
+.bluelist ul, .orangelist ul, .greenlist ul{
+    width: 259px;
+    list-style: none;
+    margin:0 auto;
+}
+.bluelist ul li, .orangelist ul li, .greenlist ul li{
+    list-style-image: url(images/bullet.png);
+    margin-left: 25px;
+    line-height: 1.5;
+    position: relative;
+    color: #aeb3bb;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.bluelist ul li::before, .orangelist ul li::before, .greenlist ul li::before{
+    display: block;
+    position: absolute;
+}
+.bluelist ul li:nth-child(2n+1), .orangelist ul li:nth-child(2n+1), .greenlist ul li:nth-child(2n+1){
+    background-color: #edf5fd;
+}
+.bluelist ul li:nth-child(2n), .orangelist ul li:nth-child(2n), .greenlist ul li:nth-child(2n){
+    background-color: #f5f5f6;
+}
+
+.osend input{
+    width:254px;
+    height: 41px;
+    background-color: #ee8129;
+    border: 1px solid #ee8129;
+    border-bottom: 2px solid #b3560b;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 33px;
+}
+.bsend input, .gsend input{
+    width:254px;
+    height: 41px;
+    background-color: #3371a6;
+    border: 1px solid #3371a6;
+    border-bottom: 2px solid #16436a;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 33px;
+}
+
+.testimonials {
+    background: url(images/background.png);
+    background-size: 100%;
+    height: 315px;
+    padding-left: 150px;
+    font-family: "Trebuchet MS";
+}
+img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 26px;}
+
+.womanall, .manall,.woman, .womansays, .man, .mansays{
+    display: inline-block;
+}
+
+.womansays {
+    width: 365px;
+    height: 100px;
+    float: right;
+    position:relative;
+    margin-right: 43px;
+    background-color: #f7f7f7;
+    font-size: 13px;
+    color: #7f7f7f;
+}
+.womansays::after{
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 22px solid #f7f7f7;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    left: -22px;
+    top: 28px;
+}
+.womansays h2{
+    font-style: italic;
+    color: #3070a8;
+    padding: 15px 0 10px 0;
+    border-bottom: 1px dotted;
+}
+.mansays{
+    width:365px;
+    height: 100px;
+    float:right;
+    position:relative;
+    background-color: #f7f7f7;
+    font-size: 13px;
+    color: #7f7f7f;
+}
+.mansays::after{
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 22px solid #f7f7f7;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    left: -22px;
+    top: 28px;
+}
+
+.mansays h2{
+    font-style: italic;
+    color: #3070a8;
+    border-bottom: 1px dotted;
+    padding: 15px 0 10px 0;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #3170a8;
+    text-align: center;
+    padding-top: 58px;
+    padding-bottom: 52px;
+}
+h1 span {
+    color: #ee8129;
+}
+h2 span{
+    float: right;
+    width: 50;
+    position: inherit;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+p{
+    padding-top: 16px;
+    text-align: justify;
+    padding-right: 19px;
+    padding-left: 19px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+body{
+    font-family: Tahoma;
+}
+.sivtsev{
+    width: 402px;
+    height: 1122px;
+    border: 3px solid white;
+    margin: 0 auto;
+}
+.uline{
+    border-top: 1px solid rgb(255,6,6);
+    color: transparent;
+    box-shadow: 0 0 5px rgba(255,6,6,0.5);
+    margin: 18px 10px 18px 10px;
+}
+.sivtsev p{
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.6);
+    text-align: justify;
+    text-indent: 14px;
+}
+.sight01 {
+    font-size: 80px;
+    margin-bottom: 85px;
+    word-spacing: 224px;
+}
+.sight02{
+    font-size: 68px;
+    margin-bottom: 76px;
+    word-spacing: 92px;
+}
+.sight03{
+    font-size: 66px;
+    margin-bottom: 70px;
+    word-spacing: 35px;
+    }
+.sight04{
+    font-size: 60px;
+    margin-bottom: 65px;
+    word-spacing: 25px;
+}
+.sight05{
+    font-size: 50px;
+    margin-bottom: 62px;
+    word-spacing: 32px;
+}
+.sight06{
+    font-size: 44px;
+    margin-bottom: 56px;
+    word-spacing: 25px;
+}
+.sight07{
+    font-size: 36px;
+    margin-bottom: 53px;
+    word-spacing: 35px;
+}
+.sight08{
+    font-size: 32px;
+    margin-bottom: 41px;
+    word-spacing: 27px;
+}
+.sight09{
+    font-size: 30px;
+    margin-bottom: 36px;
+    word-spacing: 29px;
+}
+.sight10{
+    font-size: 18px;
+    margin-bottom: 18px;
+    word-spacing: 34px;
+}
+.sight15{
+    font-size: 12px;
+    margin-bottom: 30px;
+    word-spacing: 40px;
+}
+.sight20{
+    font-size: 10px;
+    margin-bottom: 30px;
+    word-spacing: 42px;
+}

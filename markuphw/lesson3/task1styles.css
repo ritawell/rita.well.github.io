@@ -1,0 +1,44 @@
+h1{
+    text-align: right;
+    color: orange;
+}
+
+.plants-list#allotment h2{
+    color: orange;
+    font: 200%;
+    font-weight: bold;
+}
+
+.plants-list#allotment .fruits-list{
+    color: grey;
+    }
+.plants-list#allotment .vegetables-list {
+    color: red;
+}
+
+.plants-list#warehouse h2 {
+    color: blue;
+    font: 200%;
+    font-weight: bold;
+}
+.plants-list#warehouse .fruits-list {
+    color: green;
+}
+.plants-list#warehouse .vegetables-list {
+    color: red;
+}
+
+thead{
+    font-weight: bold;
+    text-align: center;
+
+}
+.name {
+    color: orange;
+}
+.quantity {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+

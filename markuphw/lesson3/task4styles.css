@@ -1,0 +1,8 @@
+a[href*="google"]{
+    color: #666;
+}
+a[href*="ya"]{
+    color: #f70;
+    }
+a[target="_blank"]:after {content: "\21f1" ;transform: scaleX(-1);
+    text-decoration: none;}

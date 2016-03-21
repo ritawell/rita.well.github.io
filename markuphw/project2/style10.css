@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato'), url('https://fonts.googleapis.com/css?family=Lato') format('woff');
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 420px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    background: #f6f9f9;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.gallery{
+    margin-bottom: 138px;
+}
+h2 {
+    font-size: 35px;
+    color: #2e3a4f;
+    margin: 60px auto 30px;
+}
+p {
+    font-size: 15px;
+    color: #909090;
+    margin: 0 auto 70px;
+}
+div.first_image {
+    display: inline-block;
+    padding: 0;
+    margin: 20px;
+    position: relative;
+    opacity: 1;
+}
+div.first_image img{
+    width: 360px;
+    height: 260px;
+}
+div.hover_image {
+    display: inline-block;
+    width: 360px;
+    height: 260px;
+    padding: 0;
+    background: #39abf3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+div.hover_image:hover {
+    opacity: .8;
+}
+a.hover_image {
+    display: inline-block;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 117px auto;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+a.hover_image img {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+a.hover_image:hover {
+    background: #25a6f7;
+}
+
+div.zoom_image {
+    display: none;
+}
+img.zoom_image {
+    display: none;
+}
+div.zoom_image_selected {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.95);
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+img.zoom_image_selected {
+    width: 90%;
+    margin: 110px auto;
+    display: block;
+    padding: 0;
+}
+div.zoom_image_close {
+    background: url(images/close.png) #25a6f7 no-repeat;
+    background-position: 50% 50%;
+    width: 30px;
+    height: 30px;
+    display: block;
+    right: 10%;
+    top: 90px;
+    position: absolute;
+}
+div.zoom_image_close:hover {
+    background: url(images/close.png) #FB4A13 no-repeat;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
